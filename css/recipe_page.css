@@ -36,8 +36,38 @@
   form .example button {
     background-color: #ccc;
   }
-  .heading .icon {
-    font-family: 'Karla', sans-serif;
+
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+   border-radius: 10px;
+   border: 1px solid ;
+    float: left;
+    width: 100%;
+    background: white;
+  }
+  
+  form.example button {
+    float: left;
+    margin-top:0%;
+    width: 8%;
+    padding: 10px;
+    background: transparent;
+    color: black;
+    font-size: 20px;
+    border: none;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+  transform: scale(1.5);
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
   }
 
 .button-container {
@@ -152,8 +182,7 @@
     z-index: 200;
     position: absolute;
     top: 40%;
-    margin-left: auto;
-    margin-right: auto;
+    left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
     -webkit-transition: .25s 0s ease-in-out;
@@ -466,8 +495,6 @@ text-align: center;
     height: 300px !important;
     width: 100%;
   }
-}
-
 
 form.example input[type=text] {
   padding: 10px;
@@ -475,7 +502,7 @@ form.example input[type=text] {
  border-radius: 10px;
  border: 1px solid ;
   float: left;
-  width: 80%;
+  width: 300px;
   background: white;
 }
 
@@ -500,4 +527,30 @@ form.example::after {
   content: "";
   clear: both;
   display: table;
+}
+
+.heading{
+width: 100%;
+}
+
+.button-container button {
+  width:100px;
+}
+
+
+.recipes_container{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+width: 100%;
+}
+
+.recipe-card{
+  width: 100%;
+}
+
+.card-content{
+width: 100%;
+}
+
 }
