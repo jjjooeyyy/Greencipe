@@ -7,9 +7,9 @@
 
     <title> Recipes </title>
 
-      
     <!-- external css -->
-    <link rel="stylesheet" href="css/recipe_page.css">
+    <link rel="stylesheet" href="/css/recipe_page.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 <!-- fontawesome icons -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -20,332 +20,150 @@
 </head>
 
 <body>
-
    <!-- Heading banner-->
-  <div class="bg"></div>
+  <div class="bg">
+      <img src="/images/recipe-bg.jpg">
+  </div>
   
        <!-- Drop-down nav -->
-       <label>
+      <label>
         <input type="checkbox">
         <span class="icon-container"> <span class="hamburger"></span> </span>
         <ul>
             <li><a href="/html/landing_page.html">Home</a></li>
-            <li><a href="/about.html">About Us</a></li>
-            <li><a href="/share_with_us.html">Share With Us</a></li>
-            <li><a href="/Subscribe.html">Subscribe</a></li>
+            <li><a href="/html/about.html">About Us</a></li>
+            <li><a href="/html/share_with_us.html">Share With Us</a></li>
+            <li><a href="/html/Subscribe.html">Subscribe</a></li>
           </ul>
           </label>
-         </div>
 
-<!--Recipe Cards Intro -->
-<section class="heading">
-    <h1>Our Recipes</h1>
-  <div class="button-container">
-      <h3> Catergories</h3>
-      <div class="line-break"></div>
-      <div class="button-container">
-    <button type="button" class="button"><a href="/sweet_catagory.html">Sweet</a></button>
-    <button type="button" class="button "><a href="/savoury_catagory.html">Savoury</a></button>
-    <button type="button" class="button "><a href="/side_category.html">Side</a></button>
-</div>
-
-<!-- Search Bar -->
-<form class="example" action="/action_page.php">
-    <input type="text" placeholder="Search.." name="search" >
-    <button type="submit"><i class="fa fa-search""></i></button>
-</form>
-
-    </div>
-  </section>
-
-  <br>
-  <br>
-  <br>
-  <br>
-
-<!-- Recipe Card -->
-
-<section id="recipes_container">
-    <div class="recipe-card" >
-      <img class="card-image" src="/Images/Spinach-Mushroom-French-Bread-Pizzas-V1.jpeg">
-      <div class="card-content">
-        <h5 class="title">SPINACH MUSHROOM FRENCH BREAD PIZZAS</h5>
-        <p class="text">They have a garlic bread base for extra flavor and then are topped with a simple mix of spinach, sautéed mushrooms, and cheese. Simple but perfect!</p>
-      </div>
-    </div>
-
-    <div class="recipe-card" >
-        <img class="card-image" src="/Images/Spinach-Mushroom-French-Bread-Pizzas-V1.jpeg">
-        <div class="card-content">
-          <h5 class="title">SPINACH MUSHROOM FRENCH BREAD PIZZAS</h5>
-          <p class="text">They have a garlic bread base for extra flavor and then are topped with a simple mix of spinach, sautéed mushrooms, and cheese. Simple but perfect!</p>
-        </div>
-      </div>
-
-      <div class="recipe-card" >
-        <img class="card-image" src="/Images/Spinach-Mushroom-French-Bread-Pizzas-V1.jpeg">
-        <div class="card-content">
-          <h5 class="title">SPINACH MUSHROOM FRENCH BREAD PIZZAS</h5>
-          <p class="text">They have a garlic bread base for extra flavor and then are topped with a simple mix of spinach, sautéed mushrooms, and cheese. Simple but perfect!</p>
-        </div>
-      </div>
-
-      <div class="recipe-card" >
-        <img class="card-image" src="/Images/Spinach-Mushroom-French-Bread-Pizzas-V1.jpeg">
-        <div class="card-content">
-          <h5 class="title">SPINACH MUSHROOM FRENCH BREAD PIZZAS</h5>
-          <p class="text">They have a garlic bread base for extra flavor and then are topped with a simple mix of spinach, sautéed mushrooms, and cheese. Simple but perfect!</p>
-        </div>
-      </div>
-
-      <div class="recipe-card" >
-        <img class="card-image" src="/Images/Spinach-Mushroom-French-Bread-Pizzas-V1.jpeg">
-        <div class="card-content">
-          <h5 class="title">SPINACH MUSHROOM FRENCH BREAD PIZZAS</h5>
-          <p class="text">They have a garlic bread base for extra flavor and then are topped with a simple mix of spinach, sautéed mushrooms, and cheese. Simple but perfect!</p>
-        </div>
-      </div>
-
-      <div class="recipe-card" >
-        <img class="card-image" src="/Images/Spinach-Mushroom-French-Bread-Pizzas-V1.jpeg">
-        <div class="card-content">
-          <h5 class="title">SPINACH MUSHROOM FRENCH BREAD PIZZAS</h5>
-          <p class="text">They have a garlic bread base for extra flavor and then are topped with a simple mix of spinach, sautéed mushrooms, and cheese. Simple but perfect!</p>
-        </div>
-      </div>
-
-
-<div class="wrapper">
-    <div class="cols">
-              <div class="col" ontouchstart="this.classList.toggle('hover');">
-                  <div class="container">
-                      <div class="front" style="background-image: url(https://pinchofyum.com/wp-content/uploads/Pesto-Shrimp-1-3-1365x2048.jpg)">
-                          <div class="inner">
-                              <p>Hazelnut gelato with rich chocolate sauce</p>
-                <span>View Recipe</span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                            <p><a href="https://pinchofyum.com/pesto-shrimp-and-parmesan-risotto"></a>Tender, juicy, garlic-marinated shrimp brushed with a bright pesto sauce and piled high on creamy Parmesan risotto with fresh tomatoes and herbs sprinkled on it all.</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col" ontouchstart="this.classList.toggle('hover');">
-                  <div class="container">
-                      <div class="front" style="background-image: url(https://pinchofyum.com/wp-content/uploads/Red-Chile-Chicken-Tacos-1.jpg)">
-                          <div class="inner">
-                              <p>Red Chile Chicken Tacos with Creamy Corn
-                            </p>
-                <span>View Recipe</span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>These Red Chile Chicken Tacos are always on our minds! Lightly pan-fried corn tortillas stuffed with tender chicken and a pinto bean red chile saucy filling. YUM!</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col" ontouchstart="this.classList.toggle('hover');">
-                  <div class="container">
-                      <div class="front" style="background-image: url(https://pinchofyum.com/wp-content/uploads/Crockpot-Lentil-Soup-3.jpg)">
-                          <div class="inner">
-                              <p>The Best Detox Crockpot Lentil Soup</p>
-                <span>View Recipe</span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>Detox Crockpot Lentil Soup – a clean and simple soup made with onions, garlic, carrots, olive oil, squash, and LENTILS! Super healthy and easy to make.</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col" ontouchstart="this.classList.toggle('hover');">
-                  <div class="container">
-                      <div class="front" style="background-image: url(https://pinchofyum.com/wp-content/uploads/Walnut-Meatballs-2-1365x2048.jpg)">
-                          <div class="inner">
-                              <p>Sheet Pan Meatballs with Tomato Salad and Green Sauce</p>
-                <span>View Recipe</span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>Juicy little sheet pan meatballs that are salty, zesty, briney, and so so delicious. Pile them on tzatziki, spoon some punchy green sauce over top, and serve with a simple salad and crusty bread.</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col" ontouchstart="this.classList.toggle('hover');">
-                  <div class="container">
-                      <div class="front" style="background-image: url(https://pinchofyum.com/wp-content/uploads/Chicken-Tikka-Masala-Bowls-3-1365x2048.jpg)">
-                          <div class="inner">
-                              <p>Crispy Chicken Tikka Bowls with Mint Sauce
-                            </p>
-                <span>View Recipe</span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>Bringing you these addicting Chicken Tikka Bowls! Crispy bits of chicken tenders, crispy cucumbers, and briny pickled onions, all on a bed of fluffy quinoa with a swoop of cool mint sauce on top.</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col" ontouchstart="this.classList.toggle('hover');">
-                  <div class="container">
-                      <div class="front" style="background-image: url(https://pinchofyum.com/wp-content/uploads/Baked-Coconut-Shrimp-1-2-1365x2048.jpg)">
-                          <div class="inner">
-                              <p>Baked Coconut Shrimp with Springy Rice and Honey Butter Sauce</p>
-                <span>View Recipe</span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>Perfectly springy baked coconut shrimp piled high on a mountain of steamy pea-speckled and lemony rice and drizzles upon drizzles of a beautiful honey butter sauce.</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col" ontouchstart="this.classList.toggle('hover');">
-                  <div class="container">
-                      <div class="front" style="background-image: url(https://pinchofyum.com/wp-content/uploads/The-Olivers-Salad-1-1365x2048.jpg)">
-                          <div class="inner">
-                              <p>The Oliver’s Salad</p>
-                <span>View Recipe</span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>We’re bringing you the most beautiful salad inspired by the restaurant Oliver’s in Minnesota. Tender salmon, savory peppers and garlic confit!</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col" ontouchstart="this.classList.toggle('hover');">
-                  <div class="container">
-                      <div class="front" style="background-image: url(https://www.insidetherustickitchen.com/wp-content/uploads/2021/08/Pappa-al-Pomodoro-1200px-Inside-the-Rustic-Kitchen-2.jpg)">
-                          <div class="inner">
-                              <p>Italian Tomato and Bread Soup (Pappa Al Pomodoro)</p>
-                <span>View Recipe</span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>Make way for this Italian Tomato and Bread Soup! Rich flavors of San Marzano tomatoes, fresh basil, thinly sliced garlic, silky olive oil swirls, and bread cubes throughout.</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col" ontouchstart="this.classList.toggle('hover');">
-                <div class="container">
-                    <div class="front" style="background-image: url(images/Okonomiyaki_001.jpeg)">
-                        <div class="inner">
-                            <p>Okonomiyaki</p>
-              <span>View Recipe</span>
-                        </div>
+          <section class="heading">
+            <h1>Our Recipes</h1>
+                     
+                    <!-- Search Bar -->
+                    <form class="example" action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search" >
+                        <button type="submit"><i class="fa fa-search""></i></button>
+                    </form>
+                    
+                    <!-- Catagories -->
+                        <div class="button-container">
+                      <button type="button" class="button"><a href="/html/sweet_catagory.html">Sweet</a></button>
+                      <button type="button" class="button "><a href="/html/savoury_catagory.html">Main</a></button>
+                      <button type="button" class="button "><a href="/html/side_category.html">Side</a></button>
                     </div>
-                    <div class="back">
-                        <div class="inner">
-                          <p><a href="https://www.justonecookbook.com/okonomiyaki/"></a>This popular Japanese street food is a savory version of Japanese pancake. Once tried, you’ll be coming back for more!</p>
-                        </div>
-                    </div>
+                    
+            </section>
+            
+              <br>
+            
+            <!-- Recipe Card -->
+            
+            <section id="recipes_container">
+                <div class="recipe-card" >
+                  <a href="/html/savoury_catagory.html"><img class="card-image" src="/Images/Spinach-Mushroom-French-Bread-Pizzas-V1.jpeg"></a>
+                    <div class="card-content">
+                    <h5 class="title">SPINACH MUSHROOM FRENCH BREAD PIZZAS</h5>
+                    <p class="text">They have a garlic bread base for extra flavor and then are topped with a simple mix of spinach, sautéed mushrooms, and cheese. Simple but perfect!</p>
                 </div>
-            </div>
-
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-                <div class="container">
-                    <div class="front" style="background-image: url(https://pinchofyum.com/wp-content/uploads/sweet-potato-peanut-soup-recipe.jpg)">
-                        <div class="inner">
-                            <p>Spicy Peanut Soup with Sweet Potato + Kale</p>
-              <span>View Recipe</span>
-                        </div>
-                    </div>
-                    <div class="back">
-                        <div class="inner">
-                          <p><a href="https://pinchofyum.com/sweet-potato-peanut-soup"></a>Okay, YUMMMM. Spicy Peanut Soup with Sweet Potatoes + Kale! Comforting and SUPER nutritious. Naturally vegan, gluten free, refined sugar free.</p>
-                        </div>
-                    </div>
                 </div>
-            </div>
-
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
+            
+                <div class="recipe-card" >
+                    <a href="/html/savoury_catagory.html"><img class="card-image" src="/images/OKONOMIYAKI.jpeg"></a>
+                    <div class="card-content">
+                      <h5 class="title">OKONOMIYAKI</h5>
+                      <p class="text">Osaka-style okonomiyaki which is iconic Japanese street food. Okonomiyaki is a melting in your mouth savoury pancake, or giant vegetable bacon fritter, which is crispy outside and tender inside, and packed with cabbage, seafood and pork belly.</p>
+                    </div>
+                  </div>
+            
+                  <div class="recipe-card" >
+                    <a href="/html/savoury_catagory.html"><img class="card-image" src="https://www.thelastfoodblog.com/wp-content/uploads/2021/05/tofu-katsu-curry-1.jpg"></a>
+                    <div class="card-content">
+                        <h5 class="title">Katsu Curry</h5>
+                        <p class="text">Anyone who is into Japanese food knows that katsu curry is wickedly wonderful. What makes it stand out from other curries is that the meat is breaded and fried before having a luxurious silky curry sauce slathered all over it.</p>
+                    </div>
+                  </div>
+            
+                  <div class="recipe-card" >
+                    <a href="/html/sweet_catagory.html"><img class="card-image" src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-106535_11-94ac938.jpg?quality=90&webp=true&resize=300,272"></a>
+                    <div class="card-content">
+                      <h5 class="title">Hazelnut gelato with rich chocolate sauce</h5>
+                      <p class="text">They have a garlic bread base for extra flavor and then are topped with a simple mix of spinach, sautéed mushrooms, and cheese. Simple but perfect!</p>
+                    </div>
+                  </div>
+            
+                  <div class="recipe-card" >
+                    <a href="/html/side_category.html"><img class="card-image" src="https://www.thespruceeats.com/thmb/Cw0RGpT-P-QbRtMYVa6BCRr9fVk=/2048x1152/smart/filters:no_upscale()/buttery-southern-fried-corn-3054343-10_preview-5b19856e8023b90036484a2b.jpeg"></a>
+                    <div class="card-content">
+                      <h5 class="title">Spicy Corn</h5>
+                      <p class="text">They have a garlic bread base for extra flavor and then are topped with a simple mix of spinach, sautéed mushrooms, and cheese. Simple but perfect!</p>
+                    </div>
+                  </div>
+            
+                  <div class="recipe-card" >
+                    <a href="/html/sweet_catagory.html"><img class="card-image" src="https://www.garnishwithlemon.com/wp-content/uploads/2019/03/Lemon-Cheesecake-Bars-1-of-3-800x1200.jpg"></a>
+                    <div class="card-content">
+                      <h5 class="title">Luscious lemon baked cheesecake</h5>
+                      <p class="text">They have a garlic bread base for extra flavor and then are topped with a simple mix of spinach, sautéed mushrooms, and cheese. Simple but perfect!</p>
+                    </div>
+                  </div>
+            </section>
+            
+            
+            <!-- footer -->	 
+            <footer class="site-footer">
                 <div class="container">
-                    <div class="front" style="background-image: url(https://pinchofyum.com/wp-content/uploads/Tofu-Burgers-1-2.jpg)">
-                        <div class="inner">
-                            <p>Spicy Tofu Burgers</p>
-              <span>View Recipe</span>
-                        </div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                      <h6>About</h6>
+                      <p class="text-justify">
+                  Do you want to ask about something?<br>
+                  +44 (0)20 7730 1234<br>
+                  +44 (0)20 7723 5432<br>
+                  greenrecipefoofblog@foodstyle.com</p>
                     </div>
-                    <div class="back">
-                        <div class="inner">
-                          <p><a href="https://pinchofyum.com/spicy-tofu-burgers"></a>Spicy Tofu Burgers! YES. Crumbled tofu pressed together with lemongrass, sriracha, and fresh herbs, all browned up into a delicious flavor-bomb burger.
-
-                          </p>
-                        </div>
+              
+                    <div class="col-xs-6 col-md-3">
+                      <h6>Quick Links</h6>
+                      <ul class="footer-links">
+                        <li><a href="/html/about.html">ABOUT US</a></li>
+                        <li><a href="/html/recipe_page.html">Recipes</a></li>
+                        <li><a href="/html/share_with_us.html">Share With Us</a></li>
+                        <li><a href="/html/Subscribe.html">Subscribe</a></li>
+                      </ul>
                     </div>
+              
+                  </div>
+                  <hr>
                 </div>
-            </div>
-
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
-                    <div class="front" style="background-image: url(https://pinchofyum.com/wp-content/uploads/Spicy-Vegetarian-Falafel-Naanwich.jpg)">
-                        <div class="inner">
-                            <p>Spicy Falafel and Roasted Veggie Naan-wich</p>
-              <span>View Recipe</span>
-                        </div>
+                  <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                      <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+                   <a href="#">CFG</a> Amended by Joey.
+                      </p>
                     </div>
-                    <div class="back">
-                        <div class="inner">
-                          <p><a href="https://pinchofyum.com/spicy-falafel-roasted-veggie-naan-wich"></a>aan-wich, I mean this pillowy sandwich packed with homemade falafel (5 ingredients!), roasted veggies, and epic homemade sauce.</p>
-                        </div>
+              
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                      <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="instagram" href="https://www.instagram.com/hello.world_coder/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="linkedin" href="www.linkedin.com/in/joeycheung526"><i class="fab fa-linkedin"></i></a></li>   
+                      </ul>
                     </div>
+                  </div>
                 </div>
-            </div>
-          </div>
-   </div>
-
-<!-- footer -->	 
-<div class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-       <a href="#">CFG</a>.
-          </p>
-        </div>
-  
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <li><a class="facebook" href="https://www.facebook.com/Green-Recipe-Food-Blog-113738341343018"><i class="fab fa-facebook"></i></a></li>
-            <li><a class="twitter" href="https://twitter.com/PaowiiC"><i class="fab fa-twitter"></i></a></li>
-            <li><a class="instagram" href="https://www.instagram.com/greenrecipeblog/"><i class="fab fa-instagram"></i></a></li>
-            <li><a class="linkedin" href="https://www.linkedin.com/in/paula-manese-b32a64197/"><i class="fab fa-linkedin"></i></a></li>  
-          </ul>
-        </div>
-      </div>
-    </div>
-</div>
-  </footer>
-
- <!-- AOS -->
- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
- <!-- AOS initialization -->
-<script>
- AOS.init();
-</script>
-
+              </footer>
+            
+            
+             <!-- AOS -->
+             <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            
+             <!-- AOS initialization -->
+            <script>
+             AOS.init();
+            </script>            
 
 </body>
 </html>
