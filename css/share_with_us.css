@@ -103,8 +103,7 @@
       z-index: 200;
       position: absolute;
       top: 40%;
-      margin-left: auto;
-      margin-right: auto;
+      left: 50%;
       transform: translate(-50%, -50%);
       opacity: 0;
       -webkit-transition: .25s 0s ease-in-out;
@@ -138,11 +137,14 @@
    }
 
    .intro h1{
-       margin-top: 15rem;
+       margin-top: 10rem;
+       margin-bottom: 2rem;
        font-family: 'Baskervville', serif;
        text-transform: uppercase;
        font-size: 40px;
        text-align: center;
+       display: flex;
+       align-self: center;
    }
 
    .intro p{
@@ -151,6 +153,9 @@
     text-align: center;
     line-height: 50px;
     margin-bottom: 15rem;
+    display: flex;
+    align-self: center;
+    width: 700px;
    }
 
    .banner{
@@ -166,7 +171,7 @@
 /************************************** Share section **************************************/
 
 .sharing{
-  margin: 3rem;
+  
   display: flex;
   justify-content: center;
   width: 100%;
@@ -183,23 +188,12 @@
 
 .sharing form{
 margin-top: 10rem;
-font-family: 'Karla', sans-serif;
+font-family: 'Baskervville', serif;
 padding-left: 10rem;
 margin-bottom: 10rem;
 display: flex;
 flex-direction: column;
-
-}
-
-.sharing .name, .detail, .photo{ 
-  font-family: 'Baskervville', serif;
-  font-size: 28px;
-  padding-bottom: 1rem;
-}
-
-#name {
-  width: 500px;
-  height: 30px;
+font-size: 20px;
 }
 
 #detail{
@@ -231,6 +225,45 @@ input[type=file]::file-selector-button:hover{
   opacity: 0.5;
 }
 
+.input-group {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.input, textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px !important;
+  font-family: 'Karla', sans-serif;
+  color: black;
+  background-color: transparent;
+  outline: 1px solid black;
+}
+
+.input-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(10px, 10px);
+  transform-origin: left;
+  transition: transform .25s;
+  font-family: 'Baskervville', serif;
+  font-size: 20px;
+}
+
+.input:focus~.input-label,
+.input:valid~.input-label,
+textarea:focus~.input-label,
+textarea:valid~.input-label {
+  transform: translate(0, -40px) scale(.8);
+  color: black;
+  font-size: 28px;
+}
+
+.input:is(:focus, :valid), textarea:is(:focus, :valid) {
+  outline-color: black;
+}
+
 .submit-btn{
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -259,7 +292,6 @@ input[type=file]::file-selector-button:hover{
 }
 
 
-
 .ml3 {
   font-weight: 900;
   font-size: 3.5em;
@@ -270,6 +302,7 @@ input[type=file]::file-selector-button:hover{
 
 .site-footer
 {
+  width: 100%;
   background-color:#26272b;
   padding:45px 0 20px;
   font-size:15px;
@@ -447,19 +480,24 @@ input[type=file]::file-selector-button:hover{
        .intro h1{
          margin-top: 5rem;
          font-size: 30px;
+         width: 100%;
+         line-height: 40px;
        }
 
        .intro p{
          font-size: 20px;
          margin-bottom: 5rem;
+         width: 100%;
+         line-height: 40px;
        }
+
        .banner{
-         height: 300px !important;
+         height: 250px !important;
+         width: 100%;
        }
 
        .sharing{
          width: 100%;
-         margin-left: 12% !important;
          display: flex;
          flex-direction: column;
          justify-content: center;
@@ -468,36 +506,52 @@ input[type=file]::file-selector-button:hover{
        .sharing h1{
          width: 80%;
         font-size: 30px;
-       margin-top: -3rem;
+       margin-top: 3rem;
+       display:flex;
+       align-self: center;
        }
 
        .sharing form{
-         width: 100%;
+         width: 100% !important;
          margin-top: 1rem;
-        padding-left: 0;
+        padding-left: 10%;
        }
 
        .sharing #name, #detail, #photo {
-        width: max-content;
+        width: 50%;
+       }
+
+       .input-group {
+        position: relative;
+        margin-bottom: 2rem;
+      }
+
+       .input:focus~.input-label,
+       .input:valid~.input-label,
+       textarea:focus~.input-label,
+       textarea:valid~.input-label {
+         transform: translate(0, -30px) scale(.8);
+         color: black;
+         font-size: 22px;
        }
 
        .sharing .display-title{
-         font-size: 18px;
+         font-size: 20px;
        }
 
        .sharing .submit-btn{
         margin-left: 30%;
-        width: 100px;
+        width: 90px;
         padding: 10px;
         border-radius: 20px;
        }
 
        .sharing input[type=file]{
-         width: 80%;
+         width: 75%;
        }
 
        .sharing textarea {
-         width: 80% !important;
+         width: 90% !important;
        }
 
        }

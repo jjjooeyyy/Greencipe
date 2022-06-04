@@ -8,6 +8,7 @@
     <title> Recipes </title>
 
     <link rel="stylesheet" href="/css/side_category.css">
+    <script src="/js/recipe_card.js"></script>
   
 
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> 
@@ -39,36 +40,33 @@
 
 <!--recipe cards-->
 <section class="heading">
-  <h1> Side Dishes </h1>
-<div class="button-container">
- <a href="./sweet_catagory.html"> <button type="button" class="button"> Sweet</button></a>
-  <a href="./savoury_catagory.html"><button type="button" class="button ">Savoury</button></a>
-  <a href="/side_category.html"><button type="button" class="button ">Sides</button></a>
-  </div>
+  <h1> Side Dishes That Make Dinners A Thousand Times Better </h1>
+
 </section>
 
 <section class="container2">
   <div class="card">
     <div class="card-image car-1"></div>
-      <h2> Bokchoy</h2>
+      <h2> Semolina roast potatoes with garlic & thyme </h2>
      <p><span>INGREDIENTS:</span></p>
       <ul>
-        <li>1 tablespoon vegetable oil</li>
-        <li>2 cloves garlic, crushed and chopped</li>
-        <li>8 heads baby bok choy, trimmed and cut into bite-size pieces></li>
-        <li>salt to taste</li>
-      </ul>
-      <p><span>INSTRUCTIONS:</span></p>
+        <li>1 garlic bulb</li>
+        <li>1kg small floury potatoes</li>
+        <li>5 tbsp olive oil</li>
+        <li>100g fine semolina flour</li>
+        <li>6 thyme sprigs</li>
+      </ul> <span id="dots">...</span><span id="more">
+      
       <ol>
-        <li>Heat the oil in a large skillet or wok over medium heat, and cook the garlic in the hot oil until fragrant, 1 to 2 minutes.</li>
-        <li> Mix in the bok choy, and cook and stir until the green parts of the leaves turn bright green and the stalks become slightly translucent, 5 to 8 minutes. Sprinkle with salt to serve.</li>
-      <li>Done! Enjoy this delicious little side dish with any meal!</li>
-      </li>
-      </ol>
-       
-    
-    
+        <p>INSTRUCTIONS:</p>
+        <li>Break the garlic bulb into cloves and place in a pan with the potatoes in their skins, then cover with cold salted water. Bring the potatoes to the boil, then simmer for 15 mins until you can put a knife through, but they still hold their shape. Drain in a colander and leave to cool.</li><br>
+        <li>Heat oven to 180C/160C fan/gas 4. When the potatoes are cool enough to handle, peel off the skins. Cut into quarters and mix in a large bowl with 2 tbsp of the olive oil and some seasoning. Toss with the semolina flour until well coated.</li><br>
+        <li>Pour the remaining 3 tbsp olive oil into a shallow roasting tin and add the potatoes, garlic and thyme. Bake for 45 mins-1 hr until the potatoes are crisp and golden.</li>
+    </ol></span>
+    <button onclick="myFunction()" id="myBtn">Read More</button>
   </div>
+
+
   <div class="card">
     <div class="card-image car-2"></div>
     <h2> Spicy Corn</h2>
@@ -80,14 +78,16 @@
              <li>½ teaspoons red chili powder</li>
              <li>½ teaspoons salt</li>
              <li>2 tablespoons lemon juice</li>
-           </ul>
-           <p><span>INSTRUCTIONS:</span></p>
+           </ul><span id="dots-2">...</span><span id="more-2">
+           
            <ol>
-             <li>Open the sweet corn can and drain out all the water.</li>
-             <li>Put the corn in a bowl. Add butter and spices along with lemon juice.</li>
-             <li>Stir well. Taste and adjust seasonings as required.</li>
+            <p>INSTRUCTIONS:</p>
+             <li>Open the sweet corn can and drain out all the water.</li><br>
+             <li>Put the corn in a bowl. Add butter and spices along with lemon juice.</li><br>
+             <li>Stir well. Taste and adjust seasonings as required.</li><br>
              <li>For a variation on this recipe, you can add herbs and spices of your own choice. For e.g. add some dried herbs (basil, oregano or thyme). Use black pepper or paprika or some cayenne pepper.</li>
-           </ol></li>
+           </ol></span>
+           <button onclick="myFunction2()" id="myBtn-2">Read More</button>
        
   </div>
   <div class="card">
@@ -101,14 +101,96 @@
              <li>1 lemon, juiced then ½ zested</li>
              <li>3 tbsp tahini</li>
              <li>mixed crudités and toasted pitta bread, to serve (optional)</li>
-           </ul>
-           <p><span>INSTRUCTIONS:</span></p>
+           </ul><span id="dots-3">...</span><span id="more-3">
+           
            <ol>
-             <li>Thoroughly rinse the chickpeas in a colander under cold running water. Tip into the large bowl of a food processor along with 60ml of the oil and blitz until almost smooth. Add the garlic, lemon and tahini along with 30ml water. Blitz again for about 5 mins, or until the hummus is smooth and silky.</li>
+            <p>INSTRUCTIONS:</p>
+             <li>Thoroughly rinse the chickpeas in a colander under cold running water. Tip into the large bowl of a food processor along with 60ml of the oil and blitz until almost smooth. Add the garlic, lemon and tahini along with 30ml water. Blitz again for about 5 mins, or until the hummus is smooth and silky.</li><br>
              <li> Add 20ml more water, a little at a time, if it looks too thick. Season and transfer to a bowl. Swirl the top of the hummus with the back of a dessert spoon and drizzle over the remaining oil. Serve with crunchy crudités and toasted pitta bread, if you like.</li>
-            </ol>
-
+            </ol></span>
+            <button onclick="myFunction3()" id="myBtn-3">Read More</button>
   </div>
+
+  <div class="card">
+    <div class="card-image car-4"></div>
+  <h2>Tomato & courgette stew</h2>
+  <p><span>INGREDIENTS:</span></p>
+           <ul>
+             <li> 1 tbsp olive oil </li>
+             <li> 1 onion , chopped </li>
+             <li> 2 garlic cloves , crushed </li>
+             <li> 3 courgettes , quartered lengthways and cut into chunks </li>
+             <li> 2 x 400g cans chopped tomatoes </li>
+             <li> small bunch basil , torn </li>
+             <li> 25g parmesan (or vegetarian alternative), finely grated </li>
+           </ul> <span id="dots-4">...</span><span id="more-4">
+          
+           <ol>
+            <p>INSTRUCTIONS:</p>
+             <li>Heat the oil in a large frying pan over a medium heat. Add the onion and cook for about 10 mins until softened and starting to go golden brown. Add the garlic and cook for 5 mins more.</li><br>
+             <li>Add the courgettes and cook for about 5 mins until starting to soften. Tip in the tomatoes and give everything a good stir. Simmer for 35-40 mins or until tomatoes are reduced and courgettes soft, then stir in the basil and Parmesan.</li>
+            </ol></span>
+            <button onclick="myFunction4()" id="myBtn-4">Read More</button>
+  </div>
+
+  <div class="card">
+    <div class="card-image car-5"></div>
+  <h2>Japanese Chicken Wings</h2>
+  <p><span>INGREDIENTS:</span></p>
+           <ul>
+             <li> 800 grams chicken wings </li>
+             <li> 1/2 teaspoon ground black pepper </li>
+             <li> 1/2 teaspoon salt </li>
+             <li> 1/4 cup evaporated cane sugar (packed) </li>
+             <li> 3 tablespoons soy sauce </li>
+             <li> 1/3 cup sake </li>
+             <li> 1 teaspoon ginger juice  </li>
+             <li> 4 grams garlic </li>
+             <li> 1 tablespoon black vinegar</li>
+             <li> 1 tablespoon potato starch, vegetable oil</li>
+             <li> 2 teaspoons toasted sesame seeds </li>
+           </ul> <span id="dots-5">...</span><span id="more-5">
+          
+           <ol>
+            <p>INSTRUCTIONS:</p>
+             <li>Put the chicken wings in a single layer on a tray and sprinkle with half of the salt and pepper. Toss the chicken to coat evenly refrigerate while you prepare the other ingredients.</li><br>
+               <li>Make the glaze by putting the sugar, soy sauce, sake, ginger juice, and garlic in a shallow pan. Heat over medium-high heat until the glaze starts to thicken. You can tell when it's ready when the bubbles get big and shiny.</li><br>
+               <li>Add the vinegar, and then transfer to a large bowl and allow the glaze to cool.</li><br>
+               <li>Add about 2-inches of vegetable oil to a heavy-bottomed pot and heat to 160C.</li><br>
+               <li>Take the chicken out of the fridge and use paper towels to remove as much moisture from the surface of the chicken as possible. Sprinkle on the potato starch and toss the wings to evenly coat each piece with a thin layer of starch.</li><br>
+               <li>Fry the chicken wings for 10 minutes in batches. Transfer to a plate and continue frying the rest of the wings.</li><br>
+               <li>Increase the heat of the oil to 190C. Fry the chicken in smaller batches, being careful not to overcrowd the pan. The chicken is done when the wings are golden brown (about 2-3 minutes).</li><br>
+               <li>Transfer the wings directly to the bowl of glaze and quickly toss to coat.</li><br>
+               <li>Sprinkle on some toasted sesame seeds and black pepper to taste and toss again. Don’t let the wings sit in the glaze for too long.</li>
+            </ol></span>
+            <button onclick="myFunction5()" id="myBtn-5">Read More</button>
+  </div>
+
+  <div class="card">
+    <div class="card-image car-6"></div>
+  <h2>Miso Soup</h2>
+  <p><span>INGREDIENTS:</span></p>
+           <ul>
+             <li> 20g/¾oz instant dashi (Japanese stock) </li>
+             <li> 800ml/1½ pints boiling water </li>
+             <li> 4 asparagus spears or spring onions </li>
+             <li> 2 tbsp white or red miso paste </li>
+             <li> 1 tbsp mirin (sweet rice wine) </li>
+             <li> 1 tbsp soy sauce </li>
+             <li> 200g/7oz silken tofu, cubed </li>
+           </ul> <span id="dots-6">...</span><span id="more-6">
+          
+           <ol>
+            <p>INSTRUCTIONS:</p>
+             <li>Put the dashi or bouillon powder with the boiling water in a saucepan, and stir well.</li><br>
+               <li>Finely slice the asparagus on the diagonal and add to the pan. Simmer for three minutes.</li><br>
+               <li>Place the miso paste in a small bowl and add a ladleful of the hot broth, whisking with a small whisk to get rid of any lumps. When smooth, slowly pour the mixture back into the saucepan, whisking constantly.</li><br>
+               <li>Add the mirin, soy sauce and silken bean curd. Heat through gently, without boiling.</li><br>
+               <li>Serve in small lacquered soup bowls.</li>
+            </ol></span>
+            <button onclick="myFunction6()" id="myBtn-6">Read More</button>
+  </div>
+
 </section>
 </div>
 
@@ -116,65 +198,49 @@
 
 <!-- footer -->	 
 <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>About</h6>
-          <p class="text-justify">GREEN RECIPE FOOD BLOG<br>
-            87-135 BROMPTON ROAD<br>
-              KNIGHTSBRIDGE
-              LONDON<br>
-  
-      Do you want to ask about something?<br>
-      +44 (0)20 7730 1234<br>
-      +44 (0)20 7723 5432<br>
-      greenrecipefoofblog@foodstyle.com</p>
-        </div>
-  
-        <div class="col-xs-6 col-md-3">
-          <h6>Categories</h6>
-          <ul class="footer-links">
-            <li><a href="about.html">ABOUT US</a></li>
-            <li><a href="">GREEN RECIPE FOOD GROUP</a></li>
-            <li><a href="">CAREERS</a></li>
-            <li><a href="">BECOME AFFLIATE</a></li>
-            <li><a href="">CORPORATE RESPONSIBILTY</a></li>
-            <li><a href="">PRESS</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-xs-6 col-md-3">
-          <h6>Quick Links</h6>
-          <ul class="footer-links">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Contribute</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Sitemap</a></li>
-          </ul>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>About</h6>
+        <p class="text-justify">
+    Do you want to ask about something?<br>
+    +44 (0)20 7730 1234<br>
+    +44 (0)20 7723 5432<br>
+    greenrecipefoofblog@foodstyle.com</p>
       </div>
-      <hr>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="/html/about.html">ABOUT US</a></li>
+          <li><a href="/html/recipe_page.html">Recipes</a></li>
+          <li><a href="/html/share_with_us.html">Share With Us</a></li>
+          <li><a href="/html/Subscribe.html">Subscribe</a></li>
+        </ul>
+      </div>
+
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-       <a href="#">CFG</a>.
-          </p>
-        </div>
-  
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <li><a class="facebook" href="https://www.facebook.com/Green-Recipe-Food-Blog-113738341343018"><i class="fab fa-facebook"></i></a></li>
-            <li><a class="twitter" href="https://twitter.com/PaowiiC"><i class="fab fa-twitter"></i></a></li>
-            <li><a class="instagram" href="https://www.instagram.com/greenrecipeblog/"><i class="fab fa-instagram"></i></a></li>
-            <li><a class="linkedin" href="https://www.linkedin.com/in/paula-manese-b32a64197/"><i class="fab fa-linkedin"></i></a></li>  
-          </ul>
-        </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+     <a href="#">CFG</a> Amended by Joey.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="instagram" href="https://www.instagram.com/hello.world_coder/"><i class="fab fa-instagram"></i></a></li>
+          <li><a class="linkedin" href="www.linkedin.com/in/joeycheung526"><i class="fab fa-linkedin"></i></a></li>   
+        </ul>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
 
  <!-- AOS -->
  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

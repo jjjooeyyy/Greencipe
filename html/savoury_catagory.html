@@ -5,9 +5,10 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
 
-    <title> Recipes </title>
+    <title> Main Dishes </title>
 
     <link rel="stylesheet" href="/css/savoury_catagory.css">
+    <script src="/js/recipe_card.js"></script>
 
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> 
  
@@ -28,22 +29,18 @@
         <input type="checkbox">
         <span class="icon-container"> <span class="hamburger"></span> </span>
         <ul>
-            <li><a href="/landing_page.html">Home</a></li>
-            <li><a href="/about.html">About Us</a></li>
-            <li><a href="/recipe_page.html">Recipes</a></li>
-            <li><a href="/share_with_us.html">Share With Us</a></li>
-            <li><a href="/Subscribe.html">Subscribe</a></li>
+            <li><a href="/html/landing_page.html">Home</a></li>
+            <li><a href="/html/about.html">About Us</a></li>
+            <li><a href="/html/recipe_page.html">Recipes</a></li>
+            <li><a href="/html/share_with_us.html">Share With Us</a></li>
+            <li><a href="/html/Subscribe.html">Subscribe</a></li>
           </ul>
           </label>
 
 <!--Recipe Buttons-->
 <section class="heading">
-    <h1>Savoury</h1>
-  <div class="button-container">
-   <a href="./sweet_catagory.html"> <button type="button" class="button"> Sweet</button></a>
-    <a href="./savoury_catagory.html"><button type="button" class="button ">Savoury</button></a>
-    <a href="./side_category.html"><button type="button" class="button ">Sides</button></a>
-    </div>
+    <h1>Check out our favorite main course recipes</h1>
+  
     </section>
     <!--recipe cards-->
     <section class="container2">
@@ -59,24 +56,24 @@
             <li>½ cup flour</li>
             <li>½ cup water</li>
             <li>Oil for frying</li>
-          </ul>
-          <p><span>INSTRUCTIONS:</span></p>
+          </ul><span id="dots">...</span><span id="more">
+         
           <ol>
-            <li>Put cabbage, spring onion, egg, soy sauce, flour and water in a bowl and mix well to combine.</li>
-            <li>Heat a frypan over a low to medium heat and add a splash of oil for frying.</li>
+            <p>INSTRUCTIONS:</p>
+            <li>Put cabbage, spring onion, egg, soy sauce, flour and water in a bowl and mix well to combine.</li><br>
+            <li>Heat a frypan over a low to medium heat and add a splash of oil for frying.</li><br>
             <li>Tip the okonomiyaki mixture into the pan and use a spatula to form it into 
               a round pancake about 2cm thick. Take your time cooking it - it's thick and you 
               don't want raw mixture in the middle. When golden brown on the bottom, carefully     
           flip and cook the other side until golden too. It's not essential, but I find it helpful 
-          to put a lid on the frypan for some of the cooking time to help it cook through</li>
-          <li>Remove from the pan and serve immediately, or keep warm in a low oven while you cook more pancakes.</li>
+          to put a lid on the frypan for some of the cooking time to help it cook through</li><br>
+          <li>Remove from the pan and serve immediately, or keep warm in a low oven while you cook more pancakes.</li><br>
           <li>Top with your choice of condiments, slice into wedges and enjoy!
           </li>
-          </ol>
-           
-        
-        
-      </div>
+          </ol></span>
+          <button onclick="myFunction()" id="myBtn">Read More</button>
+         </div>
+
       <div class="card">
         <div class="card-image car-2"></div>
         <h2>Katsu Curry</h2>
@@ -91,24 +88,23 @@
             <li>2 onions, chopped</li>
             <li>thumb-sized piece ginger, peeled and grated or finely chopped</li>
             <li>400ml can coconut milk</li>
-          </ul>
-          <p><span>INSTRUCTIONS:</span></p>
+          </ul><span id="dots-2">...</span><span id="more-2">
+        
           <ol>
-            <li>Fry the onions in the vegetable oil until soft – around eight minutes, then add the garlic. Stir for a minute or two. Then add the carrots and cook for a few more minutes.</li>
-            <li>Add the curry powder and stir well. After cooking through for a few minutes, add the flour a little at a time and continue to combine.</li>
-            <li>Add the chicken stock a little at a time, whisking well and making sure all the flour is combined and there are no lumps.</li>
-          <li>Using a stick blender, blitz the veggies into a smooth paste. If you don't have a stick blender, you can use a food processor or blender.</li>
+            <p>INSTRUCTIONS:</p>
+            <li>Fry the onions in the vegetable oil until soft – around eight minutes, then add the garlic. Stir for a minute or two. Then add the carrots and cook for a few more minutes.</li><br>
+            <li>Add the curry powder and stir well. After cooking through for a few minutes, add the flour a little at a time and continue to combine.</li><br>
+            <li>Add the chicken stock a little at a time, whisking well and making sure all the flour is combined and there are no lumps.</li><br>
+          <li>Using a stick blender, blitz the veggies into a smooth paste. If you don't have a stick blender, you can use a food processor or blender.</li><br>
           <li>Serve with panko breaded chicken, salmon or pork – or aubergine, tofu and sweet potatoes over rice or noodles. Enjoy.
           </li>
-          </ol>
-           
-        
-          
+          </ol></span>
+          <button onclick="myFunction2()" id="myBtn-2">Read More</button> 
       </div>
+
       <div class="card">
         <div class="card-image car-3"></div>
       <h2>Spinach and Mushroom French Bread Pizza</h2>
-
       <p><span>INGREDIENTS:</span></p>
       <ul>
         <li> 5 mushrooms</li>
@@ -120,92 +116,160 @@
         <li>1 cup shredded cheese</li>
         <li>1/8 tsp crushed red pepper</li>
         <li>1/8 tsp freshly cracked black pepper</li>
-      </ul>
-    <p><span>INSTRUCTIONS:</span></p>
+      </ul><span id="dots-3">...</span><span id="more-3">
+  
     <ol>
+      <p>INSTRUCTIONS:</p>
       <li>Preheat the oven to 350ºF. Slice the mushrooms, 
         then add them to a skillet with 1 Tbsp olive oil, 
         1 clove minced garlic, ⅛ tsp salt, and ⅛ tsp pepper.
          Sauté the mushrooms over medium heat until they have
-          softened and all of the water has evaporated out of the skillet.</li>
+          softened and all of the water has evaporated out of the skillet.</li><br>
           <li>Add the frozen spinach to the skillet with the mushrooms and continue
              to sauté until the spinach is heated through and most of the moisture has
               evaporated (there should be no water pooling in the skillet). Transfer the
-               mushrooms and spinach to a bowl to cool.</li>
+               mushrooms and spinach to a bowl to cool.</li><br>
                <li>Divide the spinach mushroom mixture between the four pieces of bread 
-                 and spread it over the surface of the bread. Top with the remaining cheese.</li>
+                 and spread it over the surface of the bread. Top with the remaining cheese.</li><br>
                  <li>Bake the pizza's for 15 minutes and enjpy!</li>
-
-    </ol>
-        
+    </ol></span>
+    <button onclick="myFunction3()" id="myBtn-3">Read More</button>
       </div>
+
+      <div class="card">
+        <div class="card-image car-4"></div>
+      <h2>Grilled Pork Spareribs With Soda Bottle Barbecue Sauce</h2>
+      <p><span>INGREDIENTS:</span></p>
+               <ul>
+                 <li> ¼ cup Diamond Crystal or 2 Tbsp. Morton kosher salt</li>
+                 <li> 2 tsp. dark brown sugar </li>
+                 <li> 1 tsp. coarsely ground black pepper </li>
+                 <li> 1 tsp. granulated garlic </li>
+                 <li> 1 tsp. paprika </li>
+                 <li> ½ tsp. cayenne pepper </li>
+                 <li> 1 rack St. Louis–style pork spareribs (2½–3½ lb.) </li>
+                 <li> ½ cup Spicy Cola Barbecue Sauce or Ginger-Mustard Barbecue Sauce, plus more for serving </li>
+                 <li> Vegetable oil (for grill) </li>
+               </ul> <span id="dots-4">...</span><span id="more-4">
+              
+               <ol>
+                <p>INSTRUCTIONS:</p>
+                 <li>Mix salt, brown sugar, black pepper, granulated garlic, paprika, and cayenne in a small bowl.</li><br>
+                 <li>Place spareribs on a rimmed baking sheet. Using a paring knife, remove silver skin from underside. Sprinkle dry rub all over ribs, patting to adhere. Using your hands, spread a thin layer of barbecue sauce all over ribs. Wrap in foil and chill at least 2 hours and up to 1 day.</li><br>
+                 <li>Prepare a grill for medium indirect heat; oil grate. Strive to maintain a grill temperature between 280°F and 300°F. Place foil-wrapped ribs, bone side up, on grate over indirect heat. Cover and grill 30 minutes. Uncover grill and turn ribs over. Cover and grill until a meat thermometer inserted into the thickest part of ribs registers 145°F–160°F (peel back foil as needed to check), 20–30 minutes.</li><br>
+                 <li>Unwrap ribs and brush on both sides with more barbecue sauce. Grill, bone side up, uncovered, until sauce darkens and meat very tender and falling off the bones, 10–12 minutes. Using large tongs, carefully transfer ribs to a cutting board. Let rest 5–7 minutes before cutting between bones into individual ribs.</li><br>
+                 <li>Serve ribs with remaining barbecue sauce on the side.</li>
+                </ol></span>
+                <button onclick="myFunction4()" id="myBtn-4">Read More</button>
+      </div>
+    
+      <div class="card">
+        <div class="card-image car-5"></div>
+      <h2>Italian Baked Meatballs</h2>
+      <p><span>INGREDIENTS:</span></p>
+               <ul>
+                 <li> 1 cup Italian-seasoned bread crumbs </li>
+                 <li> ¼ cup grated Romano cheese </li>
+                 <li> 2 tablespoons chopped fresh parsley </li>
+                 <li> ½ teaspoon salt </li>
+                 <li> ½ teaspoon ground black pepper </li>
+                 <li> ½ teaspoon garlic powder </li>
+                 <li> ½ teaspoon onion powder  </li>
+                 <li> ½ cup water </li>
+                 <li> 2 eggs </li>
+                 <li> 1½ pounds ground beef </li>
+               </ul> <span id="dots-5">...</span><span id="more-5">
+              
+               <ol>
+                <p>INSTRUCTIONS:</p>
+                 <li>Preheat the oven to 175 degrees.</li><br>
+                   <li>Mix bread crumbs, Romano cheese, parsley, salt, pepper, garlic powder, and onion powder together. Combine with water and eggs. Add ground beef and mix well. Roll mixture into balls and place on a nonstick baking sheet.</li><br>
+                   <li>Bake in the preheated oven until browned, about 30 minutes.</li>
+                </ol></span>
+                <button onclick="myFunction5()" id="myBtn-5">Read More</button>
+      </div>
+    
+      <div class="card">
+        <div class="card-image car-6"></div>
+      <h2>Lasagne</h2>
+      <p><span>INGREDIENTS:</span></p>
+               <ul>
+                 <li> 2 olive oil, plus a little for the dish) </li>
+                 <li> 750g lean beef mince </li>
+                 <li> 90g pack prosciutto </li>
+                 <li> tomato sauce </li>
+                 <li> 200ml hot beef stock </li>
+                 <li> A little grated nutmeg </li>
+                 <li> 300g pack fresh lasagne sheets </li>
+                 <li> White sauce</li>
+                 <li>125g ball mozzarella, torn into thin strips</li>
+               </ul> <span id="dots-6">...</span><span id="more-6">
+              
+               <ol>
+                <p>INSTRUCTIONS:</p>
+                 <li>To make the meat sauce, heat 2 tbsp olive oil in a frying pan and cook 750g lean beef mince in two batches for about 10 mins until browned all over.</li><br>
+                   <li>Finely chop 4 slices of prosciutto from a 90g pack, then stir through the meat mixture.</li><br>
+                   <li>Pour over 800g passata or half our basic tomato sauce recipe and 200ml hot beef stock. Add a little grated nutmeg, then season.</li><br>
+                   <li>Bring up to the boil, then simmer for 30 mins until the sauce looks rich.</li><br>
+                   <li>Heat oven to 180C/fan/160C/gas 4 and lightly oil an ovenproof dish (about 30 x 20cm).</li><br>
+                   <li>Spoon one third of the meat sauce into the dish, then cover with some fresh lasagne sheets from a 300g pack. Drizzle over roughly 130g ready-made or homemade white sauce.</li><br>
+                   <li>Repeat until you have 3 layers of pasta. Cover with the remaining 390g white sauce, making sure you can’t see any pasta poking through.</li><br>
+                   <li>Scatter 125g torn mozzarella over the top.</li><br>
+                   <li>Arrange the rest of the prosciutto on top. Bake for 45 mins until the top is bubbling and lightly browned.</li>
+                </ol></span>
+                <button onclick="myFunction6()" id="myBtn-6">Read More</button>
+      </div>
+
     </section>
     </div>
 
     </div>         
 
-  
 <!-- footer -->	 
 <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>About</h6>
-          <p class="text-justify">GREEN RECIPE FOOD BLOG<br>
-            87-135 BROMPTON ROAD<br>
-              KNIGHTSBRIDGE
-              LONDON<br>
-  
-      Do you want to ask about something?<br>
-      +44 (0)20 7730 1234<br>
-      +44 (0)20 7723 5432<br>
-      greenrecipefoofblog@foodstyle.com</p>
-        </div>
-  
-        <div class="col-xs-6 col-md-3">
-          <h6>Categories</h6>
-          <ul class="footer-links">
-            <li><a href="about.html">ABOUT US</a></li>
-            <li><a href="">GREEN RECIPE FOOD GROUP</a></li>
-            <li><a href="">CAREERS</a></li>
-            <li><a href="">BECOME AFFLIATE</a></li>
-            <li><a href="">CORPORATE RESPONSIBILTY</a></li>
-            <li><a href="">PRESS</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-xs-6 col-md-3">
-          <h6>Quick Links</h6>
-          <ul class="footer-links">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Contribute</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Sitemap</a></li>
-          </ul>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>About</h6>
+        <p class="text-justify">
+    Do you want to ask about something?<br>
+    +44 (0)20 7730 1234<br>
+    +44 (0)20 7723 5432<br>
+    greenrecipefoofblog@foodstyle.com</p>
       </div>
-      <hr>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="/html/about.html">ABOUT US</a></li>
+          <li><a href="/html/recipe_page.html">Recipes</a></li>
+          <li><a href="/html/share_with_us.html">Share With Us</a></li>
+          <li><a href="/html/Subscribe.html">Subscribe</a></li>
+        </ul>
+      </div>
+
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-       <a href="#">CFG</a>.
-          </p>
-        </div>
-  
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <li><a class="facebook" href="https://www.facebook.com/Green-Recipe-Food-Blog-113738341343018"><i class="fab fa-facebook"></i></a></li>
-            <li><a class="twitter" href="https://twitter.com/PaowiiC"><i class="fab fa-twitter"></i></a></li>
-            <li><a class="instagram" href="https://www.instagram.com/greenrecipeblog/"><i class="fab fa-instagram"></i></a></li>
-            <li><a class="linkedin" href="https://www.linkedin.com/in/paula-manese-b32a64197/"><i class="fab fa-linkedin"></i></a></li>  
-          </ul>
-        </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+     <a href="#">CFG</a> Amended by Joey.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="instagram" href="https://www.instagram.com/hello.world_coder/"><i class="fab fa-instagram"></i></a></li>
+          <li><a class="linkedin" href="www.linkedin.com/in/joeycheung526"><i class="fab fa-linkedin"></i></a></li>   
+        </ul>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
 
  <!-- AOS -->
  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

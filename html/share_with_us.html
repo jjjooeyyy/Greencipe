@@ -4,7 +4,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title> Share With Us </title>
-<link rel="stylesheet" href="css/share_with_us.css">
+<link rel="stylesheet" href="/css/share_with_us.css">
 
  <!-- bootstrap css -->
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -26,10 +26,10 @@
         <input type="checkbox">
         <span class="icon-container"> <span class="hamburger"></span> </span>
         <ul>
-            <li><a href="/landing_page.html">Home</a></li>
-            <li><a href="/about.html">About Us</a></li>
-            <li><a href="/recipe_page.html">Recipes</a></li>
-            <li><a href="/Subscribe.html">Subscribe</a></li>
+            <li><a href="/html/landing_page.html">Home</a></li>
+            <li><a href="/html/about.html">About Us</a></li>
+            <li><a href="/html/recipe_page.html">Recipes</a></li>
+            <li><a href="/html/Subscribe.html">Subscribe</a></li>
           </ul>
           </label>
 
@@ -43,22 +43,23 @@
 
 <!-- Banner -->
 <section>
-<div class="banner"><img src="images/share_with_us-bg.jpg"></div>
+<div class="banner"><img src="https://images.unsplash.com/photo-1512594218827-10a3fbc58d7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3271&q=80"></div>
 </section>
 
 <!-- Share Form -->
 <section class="sharing">
 <h1>Share your secret recipe</h1>
 <form action="#">
-    <div class="name">
-    <label for="name" class="display-title">Your Name (required) </label><br>
-    <input type="text" id="name" name="name" required><br>
+  
+    <div class="input-group">
+      <input type="text" id="name" required class="input">
+      <label for="name" class="input-label">Your Name</label>
     </div>
 
-    <div class="detail">
-<label for="detail" class="display-title">Share the details of your recipe (required) </label> <br>
-    <textarea name="detail" rows="20" cols="30" id="detail" required></textarea> <br>
-    </div>
+  <div class="input-group">
+    <textarea name="detail" rows="20" cols="30" id="detail" required></textarea>
+    <label for="detail" class="input-label">Share the details of your recipe</label>
+  </div>
 
     <div class="photo">
 <label for="photo" class="display-title">Upload your photos </label><br>
@@ -69,68 +70,51 @@
 </form>
 </section>
 
-<!-- Footer -->
 <!-- footer -->	 
 <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>About</h6>
-          <p class="text-justify">GREEN RECIPE FOOD BLOG<br>
-            87-135 BROMPTON ROAD<br>
-              KNIGHTSBRIDGE
-              LONDON<br>
-  
-      Do you want to ask about something?<br>
-      +44 (0)20 7730 1234<br>
-      +44 (0)20 7723 5432<br>
-      greenrecipefoofblog@foodstyle.com</p>
-        </div>
-  
-        <div class="col-xs-6 col-md-3">
-          <h6>Categories</h6>
-          <ul class="footer-links">
-            <li><a href="about.html">ABOUT US</a></li>
-            <li><a href="">GREEN RECIPE FOOD GROUP</a></li>
-            <li><a href="">CAREERS</a></li>
-            <li><a href="">BECOME AFFLIATE</a></li>
-            <li><a href="">CORPORATE RESPONSIBILTY</a></li>
-            <li><a href="">PRESS</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-xs-6 col-md-3">
-          <h6>Quick Links</h6>
-          <ul class="footer-links">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Contribute</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Sitemap</a></li>
-          </ul>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>About</h6>
+        <p class="text-justify">
+    Do you want to ask about something?<br>
+    +44 (0)20 7730 1234<br>
+    +44 (0)20 7723 5432<br>
+    greenrecipefoofblog@foodstyle.com</p>
       </div>
-      <hr>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="/html/about.html">ABOUT US</a></li>
+          <li><a href="/html/recipe_page.html">Recipes</a></li>
+          <li><a href="/html/share_with_us.html">Share With Us</a></li>
+          <li><a href="/html/Subscribe.html">Subscribe</a></li>
+        </ul>
+      </div>
+
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-       <a href="#">CFG</a>.
-          </p>
-        </div>
-  
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <li><a class="facebook" href="https://www.facebook.com/Green-Recipe-Food-Blog-113738341343018"><i class="fab fa-facebook"></i></a></li>
-            <li><a class="twitter" href="https://twitter.com/PaowiiC"><i class="fab fa-twitter"></i></a></li>
-            <li><a class="instagram" href="https://www.instagram.com/greenrecipeblog/"><i class="fab fa-instagram"></i></a></li>
-            <li><a class="linkedin" href="https://www.linkedin.com/in/paula-manese-b32a64197/"><i class="fab fa-linkedin"></i></a></li>  
-          </ul>
-        </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+     <a href="#">CFG</a> Amended by Joey.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="instagram" href="https://www.instagram.com/hello.world_coder/"><i class="fab fa-instagram"></i></a></li>
+          <li><a class="linkedin" href="www.linkedin.com/in/joeycheung526"><i class="fab fa-linkedin"></i></a></li>   
+        </ul>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
 
  <!-- AOS -->
  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
