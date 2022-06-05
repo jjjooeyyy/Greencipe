@@ -204,6 +204,7 @@ font-size: 20px;
 #photo,.photo-upload{
 font-size: 18px;
 font-family: 'Karla', sans-serif;
+margin-bottom: 1rem;
 }
 
 input[type=file]::file-selector-button {
@@ -263,6 +264,7 @@ textarea:valid~.input-label {
 .input:is(:focus, :valid), textarea:is(:focus, :valid) {
   outline-color: black;
 }
+
 
 .submit-btn{
   margin-top: 1rem;
@@ -506,7 +508,7 @@ textarea:valid~.input-label {
        .sharing h1{
          width: 80%;
         font-size: 30px;
-       margin-top: 5rem;
+       margin-top: 3rem;
        margin-bottom: 2rem;
        display:flex;
        flex-direction: column;
@@ -528,26 +530,30 @@ textarea:valid~.input-label {
         margin-bottom: 2rem;
       }
 
+      .input-label{
+        font-size: 18px;
+      }
+
        .input:focus~.input-label,
        .input:valid~.input-label,
        textarea:focus~.input-label,
        textarea:valid~.input-label {
-         transform: translate(0, -30px) scale(.8);
-         color: black;
-         font-size: 22px;
+         transform: translate(0, -20px) scale(.8);
+         color:black;
+         font-size: 17px;
        }
 
        .sharing .display-title{
-         font-size: 20px;
+         font-size: 18px;
        }
 
-       .sharing .submit-btn{
-        width: 100px;
-        padding: 10px;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-        align-self: start;
+    .submit-btn{
+      width: 100px;
+      padding: 10px;
+      font-size: 18px;
+      display: flex;
+     justify-content: center;
+     align-self: start;
        }
 
        .sharing input[type=file]{
@@ -555,7 +561,8 @@ textarea:valid~.input-label {
        }
 
        .sharing textarea {
-         width: 90% !important;
+         font-size: 15px;
+         width: 95% !important;
        }
 
        }

@@ -587,23 +587,35 @@ font-size: 20px;
   display: block;
   }
 
+.about-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.about-content-container{
+margin: 0;
+display: flex;
+align-items: center;
+}
 
   .about-header{
 font-size: 30px;
-margin-top: 3rem;
-width: 85%;
-
+margin-top: 2rem;
+width: 100%;
   }
 
   .about-text{
     width: 100%;
-    font-size: 23px;
-
+  font-size: 23px;
+display: flex;
+align-items: center;
   }
 
 .about-button{
    font-size: 17px;
    width: 125px;
+  margin-bottom: 3rem;
   }
 
 .about-pic{
