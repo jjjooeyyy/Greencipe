@@ -506,8 +506,10 @@ textarea:valid~.input-label {
        .sharing h1{
          width: 80%;
         font-size: 30px;
-       margin-top: 3rem;
+       margin-top: 5rem;
+       margin-bottom: 2rem;
        display:flex;
+       flex-direction: column;
        align-self: center;
        }
 
@@ -540,10 +542,12 @@ textarea:valid~.input-label {
        }
 
        .sharing .submit-btn{
-        margin-left: 30%;
-        width: 90px;
+        width: 100px;
         padding: 10px;
         border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-self: start;
        }
 
        .sharing input[type=file]{

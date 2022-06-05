@@ -148,7 +148,7 @@
  font-size: 30px;
  text-align: center;
  line-height: 50px;
- margin-bottom: 15rem;
+ margin-bottom: 10rem;
  display: flex;
  align-self: center;
  width: 800px;
@@ -161,17 +161,6 @@
     align-items: center;
 }
 
-form .fname, .lname, .email{
-    font-family: 'Baskervville', serif;
-    font-size: 28px;
-    padding-bottom: 1rem;
-}
-
-#fname, #lname, #email {
-    width: 500px;
-    height: 30px;
-  }
-
 .submit-btn{
     margin-top: 1rem;
     margin-bottom: 3rem;
@@ -181,7 +170,7 @@ form .fname, .lname, .email{
     border-radius: 30px;
     width: 130px;
     padding: 10px 20px;
-    margin-left: 35%;
+  margin-left: 35%;
     font-size: 20px;
     font-family: 'Baskervville', serif;
     margin-bottom: 10rem;
@@ -191,6 +180,43 @@ form .fname, .lname, .email{
     opacity: 0.5;
   }
 
+  .input-group {
+    position: relative;
+    margin-bottom: 3rem;
+  }
+
+  .input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px !important;
+    font-family: 'Karla', sans-serif;
+    color: black;
+    background-color: transparent;
+    outline: 1px solid black;
+    width: 300px;
+  }
+  
+  .input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    transform-origin: left;
+    transition: transform .25s;
+    font-family: 'Baskervville', serif;
+    font-size: 20px;
+  }
+  
+  .input:focus~.input-label,
+  .input:valid~.input-label{
+    transform: translate(0, -40px) scale(.8);
+    color: black;
+    font-size: 28px;
+  }
+  
+  .input:is(:focus, :valid) {
+    outline-color: black;
+  }
 /************************************ Footer **************************************/
 
 .container-fluid {
@@ -211,6 +237,7 @@ form .fname, .lname, .email{
 
 .site-footer
 {
+  width: 100%;
   background-color:#26272b;
   padding:45px 0 20px;
   font-size:15px;
@@ -372,6 +399,7 @@ form .fname, .lname, .email{
     font-weight:600
   }
 }
+
 /************************************** Responsive Setting *************************************/
 
   @media screen and (max-width: 768px) {
@@ -380,8 +408,7 @@ form .fname, .lname, .email{
       width: 100%;
     }
     .intro{
-     width: 80%;
-     margin-left: 12%;
+     width: 100%;
     }
 
      .intro h1{
@@ -396,23 +423,37 @@ form .fname, .lname, .email{
      }
 
      .sub-form form{
-        width: 80%;
+        width: 100%;
         margin-top: 1rem;
-       padding-left: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
      }
 
-     .sub-form #fname, #lname, #email {
-        width: 250px;
-     }
+     .input-group {
+      position: relative;
+      margin-bottom: 3rem;
+      width: 50%;
+    }
 
-     .sub-form .display-title{
-        font-size: 18px;
+    .form-content{
+  display: flex;
+  flex-direction: column;
+    }
+
+     .input:focus~.input-label,
+     .input:valid~.input-label {
+       transform: translate(0, -30px) scale(.8);
+       color: black;
+       font-size: 20px;
      }
 
      .sub-form .submit-btn{
-        margin-left: 30%;
-        width: fit-content;
+        width: 100px;
         padding: 10px;
         font-size: 18px;
+        display: flex;
+       justify-content: center;
+       align-self: start;
        }
   }

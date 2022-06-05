@@ -3,6 +3,7 @@
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
   }
 
 /************************************ Normal Nav **************************************/
@@ -172,13 +173,11 @@ width: 100%;
     filter: invert(1); /* prev,next icon to black color */
   }
 
-
-
   .carousel-caption h5{
-    color: black;
+    color: rgb(18, 18, 19);
     font-family: 'Spectral', serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 25px;
   }
 
 
@@ -198,6 +197,7 @@ width: 100%;
   align-items: center;
   align-self: center;
   font-family: 'Karla', sans-serif;
+  margin-left: 10%;
 }
 
 .about-header{
@@ -212,7 +212,7 @@ width: 100%;
 .about-text{
   padding: 2rem;
   text-align: center;
-  width: 85%;
+  width: 100%;
   font-size: 25px;
 }
 
@@ -234,19 +234,27 @@ width: 100%;
   }
 
   .about-pic {
-    width: 30%;
+    width: 900px;
+    height: 100%;
     display: flex;
     margin-left: 15%;
+    margin-right: 5%;
     margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+    overflow: hidden;
   }
 
+  .about-pic img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
 /************************************ Recipe Card Section **************************************/
 
 #recipes_container{
   background-color: #f5ecea;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
@@ -579,19 +587,18 @@ font-size: 20px;
   display: block;
   }
 
-  .about-container{
-width: 100%;
-  }
 
   .about-header{
 font-size: 30px;
 margin-top: 3rem;
-width: 100%;
+width: 85%;
+
   }
 
   .about-text{
     width: 100%;
     font-size: 23px;
+
   }
 
 .about-button{
@@ -637,16 +644,17 @@ align-content: center;
 width: 300px;
 }
 
+.subscribe-container{
+  width: 100%;
+}
+
 .subscribe-header{
   font-size: 30px;
 }
 
 .subscribe-text{
-width:320px;
+width:300px;
   }
 
-.carousel-inner img{
-overflow: hidden;
- }
 
   }
