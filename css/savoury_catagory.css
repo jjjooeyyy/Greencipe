@@ -162,13 +162,6 @@
 text-align: center;
 }
 
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family:'Karla', sans-serif; 
-}
-
 .card {
   width: 400px;
   margin: 20px;
@@ -287,39 +280,48 @@ background-image: url('https://images.ctfassets.net/uexfe9h31g3m/5T1UMYRjHOS2cAA
   font-weight: 900;
   font-size: 3.5em;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family:;
   color: black;
 }
 
 .site-footer
 {
-  width: 100%;
-  background-color:#26272b;
-  padding:45px 0 20px;
-  font-size:15px;
-  line-height:24px;
-  color:#737373;
+    width: 100%;
+    background-color: #f5ecea;
+    padding: 45px 0 20px;
+    font-size: 15px !important;
+    line-height: 24px;
+    color: black;
 }
+
 .site-footer hr
 {
   border-top-color:#bbb;
-  opacity:0.5
+  opacity:0.5;
 }
 .site-footer hr.small
 {
   margin:20px 0
 }
+
 .site-footer h6
 {
-  color:#fff;
+  color:black;
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
-  letter-spacing:2px
+  letter-spacing:2px;
 }
+
+.site-footer p{
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: normal;
+}
+
 .site-footer a
 {
-  color:#737373;
+  color:black;
 }
 .site-footer a:hover
 {
@@ -337,7 +339,7 @@ background-image: url('https://images.ctfassets.net/uexfe9h31g3m/5T1UMYRjHOS2cAA
 }
 .footer-links a
 {
-  color:#737373
+  color:black
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
@@ -364,7 +366,9 @@ background-image: url('https://images.ctfassets.net/uexfe9h31g3m/5T1UMYRjHOS2cAA
 }
 .copyright-text
 {
-  margin:0
+  margin:0;
+  font-size: 15px;
+  font-weight: bold;
 }
 @media (max-width:991px)
 {
@@ -388,24 +392,21 @@ background-image: url('https://images.ctfassets.net/uexfe9h31g3m/5T1UMYRjHOS2cAA
 {
   padding-left:0;
   margin-bottom:0;
-  list-style:none
+  list-style:none;
 }
 .social-icons li
 {
   display:inline-block;
-  margin-bottom:4px
-}
-.social-icons li.title
-{
+  margin-bottom:4px;
   margin-right:15px;
   text-transform:uppercase;
-  color:#96a2b2;
+  color:white;
   font-weight:700;
-  font-size:13px
+  font-size:13px;
 }
 .social-icons a{
-  background-color:#eceeef;
-  color:#818a91;
+  background-color:white;
+  color:white;
   font-size:16px;
   display:inline-block;
   line-height:44px;
@@ -455,11 +456,38 @@ background-image: url('https://images.ctfassets.net/uexfe9h31g3m/5T1UMYRjHOS2cAA
     font-weight:600
   }
 }
+
 /************************************** Responsive Setting *************************************/
 
 @media screen and (max-width: 768px) {
   .bg{
     height: 300px !important;
     width: 100%;
+  }
+
+  .heading h1{
+width: 100%;
+font-size: 28px;
+  }
+
+  .container2, .card{
+width: 100%;
+  }
+
+  .card-image{
+width: 200px;
+height: 180px;
+  }
+
+  .card{
+    font-size: 15px;
+  }
+
+  .card h2 {
+font-size: 20px;
+  }
+
+  button{
+    width: 100px;
   }
 }
