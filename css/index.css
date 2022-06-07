@@ -50,7 +50,7 @@
   }
 
  /************************************ Dropdown Menu **************************************/
- 
+
   .icon-container {  /*Contain the menu icon */
     position: absolute;
     right: 0px;
@@ -130,11 +130,10 @@
  label input:checked + .icon-container + ul { 
   opacity: 1; 
 }
-  
+
 label ul { 
   z-index: 200;
   position: fixed;
-  overflow-x: hidden;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -154,7 +153,6 @@ label ul {
     font-size: 4vmin;
     text-transform: uppercase;
     text-align: center;
-
   }
 
  label a:hover{
@@ -170,14 +168,14 @@ width: 100%;
 
   .carousel-control-next-icon,
   .carousel-control-prev-icon, .carousel-indicators {
-    filter: invert(1); /* prev,next icon to black color */
+   filter: invert(1); /*prev,next icon to black color*/
   }
 
   .carousel-caption h5{
-    color: rgb(18, 18, 19);
+    color:black;
     font-family: 'Spectral', serif;
     font-weight: 900;
-    font-size: 25px;
+    font-size: 20px;
   }
 
 
@@ -572,7 +570,7 @@ font-size: 20px;
   .topnav .nav-link {
   display: none;
   }
-  
+
   .logo img{
     width: 180px;
     margin-top: 15px;

@@ -11,7 +11,7 @@
     .bg{
       background-image: url("/images/share_with_us-bg2.jpg");
       width: 100% !important;
-      height: 50% !important;
+      height: 600px !important;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -161,7 +161,7 @@
 
    .banner{
     width: 100% !important;
-    height: 700px!important;
+    height: 400px!important;
     overflow: hidden;
     }
 
