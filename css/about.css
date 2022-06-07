@@ -193,9 +193,6 @@
     background-attachment: scroll;
   }
 
-  label ul {
-    left: 45%;
-    }
 }
 @media screen and (max-width: 479px) {
   #parallax-world-of-ugg .block p{
@@ -325,6 +322,11 @@ label a:hover{
  color: rgb(218, 211, 203); 
 }
 
+@media screen and (max-width: 768px) {
+  label ul {
+    left: 45%;
+  }
+}
 /************************************ Footer **************************************/
 
 .container-fluid {
