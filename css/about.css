@@ -181,7 +181,7 @@
 @media screen and (max-width: 959px) and (min-width: 768px) {
   #parallax-world-of-ugg .block {padding: 40px; width:620px;}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #parallax-world-of-ugg .block {padding: 30px; width:420px;}
   #parallax-world-of-ugg h2 {font-size:30px;}
   #parallax-world-of-ugg .block {padding: 30px;}
