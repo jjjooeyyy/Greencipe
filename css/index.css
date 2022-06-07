@@ -671,6 +671,10 @@ width: 300px;
 .subscribe-text{
 width:300px;
   }
-
+  
+.about-button, .subscribe-button {
+  color: black;
+  text-decoration: none;
+}
 
   }
