@@ -297,8 +297,7 @@ label input:checked + .icon-container + ul {
 
  label ul { 
   z-index: 200;
-  position: fixed;
-  overflow-x: hidden;
+  position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -307,7 +306,7 @@ label input:checked + .icon-container + ul {
   transition: .25s 0s ease-in-out;
   list-style: none;
   line-height: 3.5rem;
-}
+ }
 
 label a {
   margin-bottom: 1em;
