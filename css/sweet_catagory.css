@@ -489,4 +489,8 @@ font-size: 20px;
     color: black;
   }
 
+  label ul {
+    left: 45%;
+    }
+    
 }

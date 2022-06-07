@@ -578,4 +578,9 @@ width: 100%;
 .title, .text{
   width: 100%;
 }
+
+label ul {
+  left: 45%;
+  }
+
 }

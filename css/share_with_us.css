@@ -552,6 +552,8 @@ textarea:valid~.input-label {
 
        .sharing input[type=file]{
          width: 75%;
+         text-decoration: none;
+         color: black;
        }
 
        .sharing textarea {
@@ -559,5 +561,9 @@ textarea:valid~.input-label {
          width: 95% !important;
        }
 
+       label ul {
+        left: 45%;
+        }
+        
        }
   
