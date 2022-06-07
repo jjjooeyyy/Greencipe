@@ -131,19 +131,19 @@
   opacity: 1; 
 }
   
-   label ul { 
-    z-index: 100;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    -webkit-transition: .25s 0s ease-in-out;
-    transition: .25s 0s ease-in-out;
-    list-style: none;
-    line-height: 3.5rem;
-
-  }
+label ul { 
+  z-index: 200;
+  position: fixed;
+  overflow-x: hidden;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: .25s 0s ease-in-out;
+  transition: .25s 0s ease-in-out;
+  list-style: none;
+  line-height: 3.5rem;
+}
   
   label a {
     margin-bottom: 1em;

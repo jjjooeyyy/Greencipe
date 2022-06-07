@@ -104,9 +104,10 @@
     opacity: 1; 
   }
   
-   label ul { 
+  label ul { 
     z-index: 200;
-    position: absolute;
+    position: fixed;
+    overflow-x: hidden;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);

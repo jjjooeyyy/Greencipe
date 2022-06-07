@@ -266,6 +266,7 @@ label input:checked + .icon-container { /*Spread out the white background */
   box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF; /* Bring out the full-size white background when the icon is clicked  */
   border-radius: 0;
   background: white !important;
+  height: 100%;
 }
 
 /*Animation of the icon */
@@ -296,7 +297,8 @@ label input:checked + .icon-container + ul {
 
  label ul { 
   z-index: 200;
-  position: absolute;
+  position: fixed;
+  overflow-x: hidden;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
