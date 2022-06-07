@@ -188,8 +188,8 @@
   #parallax-world-of-ugg .parallax-one,#parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {
     padding-top:100px; 
     padding-bottom:100px;
-    height: fit-content;
-    width: fit-content;
+    height: 300px;
+    width: 100%;
   }
 
   label ul {
