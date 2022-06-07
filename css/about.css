@@ -192,11 +192,11 @@
   }
 
   #parallax-world-of-ugg .parallax-one img ,#parallax-world-of-ugg .parallax-two img, #parallax-world-of-ugg .parallax-three img {
-    width: 100%;
+    width: fit-content;
     height: fit-content;
     overflow: hidden;
   }
-  
+
   label ul {
     left: 45%;
     }
