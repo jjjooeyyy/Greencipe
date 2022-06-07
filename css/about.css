@@ -123,8 +123,8 @@
 /**************************/
 #parallax-world-of-ugg .parallax-one {
   margin:0; 
-  padding-top: 200px; 
-  padding-bottom: 200px; 
+  padding-top: 300px; 
+  padding-bottom:300px; 
   overflow: hidden; 
   position: relative; 
   width: 100%; 
@@ -190,6 +190,7 @@
     padding-bottom:100px;
     height: 300px;
     width: 100%;
+    background-attachment: scroll;
   }
 
   label ul {
