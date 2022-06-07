@@ -485,6 +485,8 @@ font-size: 20px;
 
   button{
     width: 100px;
+    text-decoration: none;
+    color: black;
   }
 
 }

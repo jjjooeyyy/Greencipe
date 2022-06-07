@@ -546,6 +546,8 @@ textarea:valid~.input-label {
       display: flex;
      justify-content: center;
      align-self: start;
+     text-decoration: none;
+     color: black;
        }
 
        .sharing input[type=file]{

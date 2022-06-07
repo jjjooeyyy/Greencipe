@@ -446,5 +446,7 @@
         display: flex;
        justify-content: center;
        align-self: start;
+       color: black;
+       text-decoration: none;
        }
   }

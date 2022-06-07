@@ -189,7 +189,7 @@
   #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {
     padding-top:100px; 
     padding-bottom:100px;
-    height: max-content;
+    height: min-content;
   }
 }
 @media screen and (max-width: 479px) {
