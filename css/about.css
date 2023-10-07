@@ -266,7 +266,7 @@ label input:checked + .icon-container { /*Spread out the white background */
   box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF; /* Bring out the full-size white background when the icon is clicked  */
   border-radius: 0;
   background: white !important;
-  height: 100%;
+  height: 100% !important;
 }
 
 /*Animation of the icon */
