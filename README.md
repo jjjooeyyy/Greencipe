@@ -4,7 +4,7 @@
 
 
 ## View the demo
-Visit [Greencipe Food Blog](https://greencipe.netlify.app)
+Visit [Greencipe Food Blog]([https://greencipe.onrender.com/])
 
 ## Technical Specifications
 - HTML
@@ -12,6 +12,7 @@ Visit [Greencipe Food Blog](https://greencipe.netlify.app)
 - JavaScript
 - BOOTSTRAP
 - EJS
+- ExpressJS
 
 ## Contributors
 This project takes reference from the orginial submitted group project :)
