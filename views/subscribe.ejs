@@ -1,0 +1,54 @@
+<%- include('../views/partials/head.ejs') %>
+<body>
+     <!-- Heading banner-->
+     <div class="bg"></div>
+
+     <!-- Drop-down nav -->
+     <label>
+        <input type="checkbox">
+        <span class="icon-container"> <span class="hamburger"></span> </span>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/recipe">Recipes</a></li>
+            <li><a href="/share">Share With Us</a></li>
+          </ul>
+          </label>
+
+<!-- Intro Section -->
+<section class="intro">
+<h1>
+    Sign Up for Our Newsletter
+</h1>
+<p>Stay up to date with our latest, recipes, videos and other news by joining our newsletter.</p>
+</section>
+
+<!-- Subscribe Form -->
+<section class="sub-form">
+    <form action="" id="contact-form">
+<div class="form-content">
+      <div class="input-group">
+        <input type="text" id="fname" required class="input">
+        <label for="fname" class="input-label">First Name</label>
+      </div>
+
+      <div class="input-group">
+        <input type="text" id="lname" required class="input">
+        <label for="lname" class="input-label">Last Name</label>
+      </div>
+
+        <div class="input-group">
+            <input type="text" id="email" class="input" required>
+            <label for="email" class="input-label">Email Address</label>
+        </div>
+      </div>
+        <p class="contact__message" id="contact-message"></p>
+        <input type="submit" value="Submit" class="submit-btn">
+
+        </form>
+</section>
+
+<%- include('../views/partials/footer.ejs') %>
+ 
+</body>
+</html>
