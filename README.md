@@ -4,7 +4,7 @@
 
 
 ## View the demo
-Visit [Greencipe Food Blog]([https://greencipe.onrender.com/])
+Visit [Greencipe Food Blog](https://greencipe.onrender.com/)
 
 ## Technical Specifications
 - HTML
