@@ -24,52 +24,6 @@
     padding-bottom: 3rem;
   }
 
-  form{
-    width: 30%;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   margin-left: auto;
-   margin-right: auto;
-  }
-
-  form .example button {
-    background-color: #ccc;
-  }
-
-  form.example input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-   border-radius: 10px;
-   border: 1px solid ;
-    float: left;
-    width: 100%;
-    background: white;
-  }
-  
-  form.example button {
-    float: left;
-    margin-top:0%;
-    width: 8%;
-    padding: 10px;
-    background: transparent;
-    color: black;
-    font-size: 20px;
-    border: none;
-    border-left: none;
-    cursor: pointer;
-  }
-  
-  form.example button:hover {
-  transform: scale(1.5);
-  }
-  
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
 .button-container {
   display: flex;
   flex-direction: row;
