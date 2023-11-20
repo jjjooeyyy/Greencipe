@@ -1,17 +1,16 @@
-function clickShow(recipeID) {
-    var dots = document.getElementById("dots-" + recipeID);
-    var moreText = document.getElementById("more-" + recipeID);
-    var btnText = document.getElementById("myBtn-" + recipeID);
-  
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read more"; 
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read less"; 
-      moreText.style.display = "inline";
-    }
-  }
+function toggle(button) {
+  let text = button.previousElementSibling;
 
-  
+  if (text.style.display === "none") {
+    text.style.display = "block";
+    button.textContent = "Read Less";
+  } else {
+    text.style.display = "none";
+    button.textContent = "Read More";
+  }
+}
+
+const moreDetailses = document.querySelectorAll(".moreDetails");
+for (let i = 0; i < moreDetailses.length; i++) {
+  moreDetailses[i].style.display = "none";
+}

@@ -36,7 +36,7 @@
             <li>½ cup flour</li>
             <li>½ cup water</li>
             <li>Oil for frying</li>
-          </ul><span id="dots-1">...</span><span id="more-1" style="display: none;">
+          </ul> <span class="moreDetails">
          
           <ol>
             <p>INSTRUCTIONS:</p>
@@ -51,7 +51,7 @@
           <li>Top with your choice of condiments, slice into wedges and enjoy!
           </li>
           </ol></span>
-          <button onclick="clickShow(1)" id="myBtn-1">Read More</button>
+          <button title="Click to Show" type="button" onclick="toggle(this)">Read More</button>
          </div>
 
       <div class="card">
@@ -68,7 +68,7 @@
             <li>2 onions, chopped</li>
             <li>thumb-sized piece ginger, peeled and grated or finely chopped</li>
             <li>400ml can coconut milk</li>
-          </ul><span id="dots-2">...</span><span id="more-2" style="display: none;">
+          </ul><span class="moreDetails">
         
           <ol>
             <p>INSTRUCTIONS:</p>
@@ -79,7 +79,7 @@
           <li>Serve with panko breaded chicken, salmon or pork – or aubergine, tofu and sweet potatoes over rice or noodles. Enjoy.
           </li>
           </ol></span>
-          <button onclick="clickShow(2)" id="myBtn-2">Read More</button> 
+          <button title="Click to Show" type="button" onclick="toggle(this)">Read More</button>
       </div>
 
       <div class="card">
@@ -96,7 +96,7 @@
         <li>1 cup shredded cheese</li>
         <li>1/8 tsp crushed red pepper</li>
         <li>1/8 tsp freshly cracked black pepper</li>
-      </ul><span id="dots-3">...</span><span id="more-3" style="display: none;">
+      </ul><span class="moreDetails">
   
     <ol>
       <p>INSTRUCTIONS:</p>
@@ -113,7 +113,7 @@
                  and spread it over the surface of the bread. Top with the remaining cheese.</li><br>
                  <li>Bake the pizza's for 15 minutes and enjpy!</li>
     </ol></span>
-    <button onclick="clickShow(3)" id="myBtn-3">Read More</button>
+    <button title="Click to Show" type="button" onclick="toggle(this)">Read More</button>
       </div>
 
       <div class="card">
@@ -130,8 +130,7 @@
                  <li> 1 rack St. Louis–style pork spareribs (2½–3½ lb.) </li>
                  <li> ½ cup Spicy Cola Barbecue Sauce or Ginger-Mustard Barbecue Sauce, plus more for serving </li>
                  <li> Vegetable oil (for grill) </li>
-               </ul> <span id="dots-4">...</span><span id="more-4" style="display: none;">
-              
+               </ul> <span class="moreDetails">
                <ol>
                 <p>INSTRUCTIONS:</p>
                  <li>Mix salt, brown sugar, black pepper, granulated garlic, paprika, and cayenne in a small bowl.</li><br>
@@ -140,7 +139,7 @@
                  <li>Unwrap ribs and brush on both sides with more barbecue sauce. Grill, bone side up, uncovered, until sauce darkens and meat very tender and falling off the bones, 10–12 minutes. Using large tongs, carefully transfer ribs to a cutting board. Let rest 5–7 minutes before cutting between bones into individual ribs.</li><br>
                  <li>Serve ribs with remaining barbecue sauce on the side.</li>
                 </ol></span>
-                <button onclick="clickShow(4)" id="myBtn-4">Read More</button>
+                <button title="Click to Show" type="button" onclick="toggle(this)">Read More</button>
       </div>
     
       <div class="card">
@@ -158,15 +157,14 @@
                  <li> ½ cup water </li>
                  <li> 2 eggs </li>
                  <li> 1½ pounds ground beef </li>
-               </ul> <span id="dots-5">...</span><span id="more-5" style="display: none;">
-              
+               </ul> <span class="moreDetails">
                <ol>
                 <p>INSTRUCTIONS:</p>
                  <li>Preheat the oven to 175 degrees.</li><br>
                    <li>Mix bread crumbs, Romano cheese, parsley, salt, pepper, garlic powder, and onion powder together. Combine with water and eggs. Add ground beef and mix well. Roll mixture into balls and place on a nonstick baking sheet.</li><br>
                    <li>Bake in the preheated oven until browned, about 30 minutes.</li>
                 </ol></span>
-                <button onclick="clickShow(5)" id="myBtn-5">Read More</button>
+                <button title="Click to Show" type="button" onclick="toggle(this)">Read More</button>
       </div>
     
       <div class="card">
@@ -183,8 +181,7 @@
                  <li> 300g pack fresh lasagne sheets </li>
                  <li> White sauce</li>
                  <li>125g ball mozzarella, torn into thin strips</li>
-               </ul> <span id="dots-6">...</span><span id="more-6" style="display: none;">
-              
+               </ul>  <span class="moreDetails">
                <ol>
                 <p>INSTRUCTIONS:</p>
                  <li>To make the meat sauce, heat 2 tbsp olive oil in a frying pan and cook 750g lean beef mince in two batches for about 10 mins until browned all over.</li><br>
@@ -197,14 +194,14 @@
                    <li>Scatter 125g torn mozzarella over the top.</li><br>
                    <li>Arrange the rest of the prosciutto on top. Bake for 45 mins until the top is bubbling and lightly browned.</li>
                 </ol></span>
-                <button onclick="clickShow(6)" id="myBtn-6">Read More</button>
+                <button title="Click to Show" type="button" onclick="toggle(this)">Read More</button>
       </div>
 
     </section>
     </div>
 
     </div>         
-    <script src="/public/js/recipe_card.js"></script>
+<script src="/js/recipe_card.js"></script>
     <%- include('../views/partials/footer.ejs') %>
 
 </body>

@@ -34,7 +34,7 @@
         <li>5 tbsp olive oil</li>
         <li>100g fine semolina flour</li>
         <li>6 thyme sprigs</li>
-      </ul> <span id="dots">...</span><span id="more">
+      </ul> <span class="moreDetails">
       
       <ol>
         <p>INSTRUCTIONS:</p>
@@ -42,7 +42,7 @@
         <li>Heat oven to 180C/160C fan/gas 4. When the potatoes are cool enough to handle, peel off the skins. Cut into quarters and mix in a large bowl with 2 tbsp of the olive oil and some seasoning. Toss with the semolina flour until well coated.</li><br>
         <li>Pour the remaining 3 tbsp olive oil into a shallow roasting tin and add the potatoes, garlic and thyme. Bake for 45 mins-1 hr until the potatoes are crisp and golden.</li>
     </ol></span>
-    <button onclick="myFunction()" id="myBtn">Read More</button>
+    <button title="Click to Show" type="button" onclick="toggle(this)">Read More</button>
   </div>
 
 
@@ -57,7 +57,7 @@
              <li>½ teaspoons red chili powder</li>
              <li>½ teaspoons salt</li>
              <li>2 tablespoons lemon juice</li>
-           </ul><span id="dots-2">...</span><span id="more-2">
+           </ul> <span class="moreDetails">
            
            <ol>
             <p>INSTRUCTIONS:</p>
@@ -66,7 +66,7 @@
              <li>Stir well. Taste and adjust seasonings as required.</li><br>
              <li>For a variation on this recipe, you can add herbs and spices of your own choice. For e.g. add some dried herbs (basil, oregano or thyme). Use black pepper or paprika or some cayenne pepper.</li>
            </ol></span>
-           <button onclick="myFunction2()" id="myBtn-2">Read More</button>
+           <button title="Click to Show" type="button" onclick="toggle(this)">Read More</button>
        
   </div>
   <div class="card">
@@ -80,14 +80,13 @@
              <li>1 lemon, juiced then ½ zested</li>
              <li>3 tbsp tahini</li>
              <li>mixed crudités and toasted pitta bread, to serve (optional)</li>
-           </ul><span id="dots-3">...</span><span id="more-3">
-           
+           </ul> <span class="moreDetails">
            <ol>
             <p>INSTRUCTIONS:</p>
              <li>Thoroughly rinse the chickpeas in a colander under cold running water. Tip into the large bowl of a food processor along with 60ml of the oil and blitz until almost smooth. Add the garlic, lemon and tahini along with 30ml water. Blitz again for about 5 mins, or until the hummus is smooth and silky.</li><br>
              <li> Add 20ml more water, a little at a time, if it looks too thick. Season and transfer to a bowl. Swirl the top of the hummus with the back of a dessert spoon and drizzle over the remaining oil. Serve with crunchy crudités and toasted pitta bread, if you like.</li>
             </ol></span>
-            <button onclick="myFunction3()" id="myBtn-3">Read More</button>
+            <button title="Click to Show" type="button" onclick="toggle(this)">Read More</button>
   </div>
 
   <div class="card">
@@ -102,14 +101,13 @@
              <li> 2 x 400g cans chopped tomatoes </li>
              <li> small bunch basil , torn </li>
              <li> 25g parmesan (or vegetarian alternative), finely grated </li>
-           </ul> <span id="dots-4">...</span><span id="more-4">
-          
+           </ul> <span class="moreDetails">
            <ol>
             <p>INSTRUCTIONS:</p>
              <li>Heat the oil in a large frying pan over a medium heat. Add the onion and cook for about 10 mins until softened and starting to go golden brown. Add the garlic and cook for 5 mins more.</li><br>
              <li>Add the courgettes and cook for about 5 mins until starting to soften. Tip in the tomatoes and give everything a good stir. Simmer for 35-40 mins or until tomatoes are reduced and courgettes soft, then stir in the basil and Parmesan.</li>
             </ol></span>
-            <button onclick="myFunction4()" id="myBtn-4">Read More</button>
+            <button title="Click to Show" type="button" onclick="toggle(this)">Read More</button>
   </div>
 
   <div class="card">
@@ -128,8 +126,7 @@
              <li> 1 tablespoon black vinegar</li>
              <li> 1 tablespoon potato starch, vegetable oil</li>
              <li> 2 teaspoons toasted sesame seeds </li>
-           </ul> <span id="dots-5">...</span><span id="more-5">
-          
+           </ul>  <span class="moreDetails">
            <ol>
             <p>INSTRUCTIONS:</p>
              <li>Put the chicken wings in a single layer on a tray and sprinkle with half of the salt and pepper. Toss the chicken to coat evenly refrigerate while you prepare the other ingredients.</li><br>
@@ -142,7 +139,7 @@
                <li>Transfer the wings directly to the bowl of glaze and quickly toss to coat.</li><br>
                <li>Sprinkle on some toasted sesame seeds and black pepper to taste and toss again. Don’t let the wings sit in the glaze for too long.</li>
             </ol></span>
-            <button onclick="myFunction5()" id="myBtn-5">Read More</button>
+            <button title="Click to Show" type="button" onclick="toggle(this)">Read More</button>
   </div>
 
   <div class="card">
@@ -157,8 +154,7 @@
              <li> 1 tbsp mirin (sweet rice wine) </li>
              <li> 1 tbsp soy sauce </li>
              <li> 200g/7oz silken tofu, cubed </li>
-           </ul> <span id="dots-6">...</span><span id="more-6">
-          
+           </ul> <span class="moreDetails">
            <ol>
             <p>INSTRUCTIONS:</p>
              <li>Put the dashi or bouillon powder with the boiling water in a saucepan, and stir well.</li><br>
@@ -167,14 +163,14 @@
                <li>Add the mirin, soy sauce and silken bean curd. Heat through gently, without boiling.</li><br>
                <li>Serve in small lacquered soup bowls.</li>
             </ol></span>
-            <button onclick="myFunction6()" id="myBtn-6">Read More</button>
+            <button title="Click to Show" type="button" onclick="toggle(this)">Read More</button>
   </div>
 
 </section>
 </div>
 
 </div>         
-
+<script src="/js/recipe_card.js"></script>
 <%- include('../views/partials/footer.ejs') %>
 
 </body>
